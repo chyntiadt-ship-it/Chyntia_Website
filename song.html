@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Song - My Personal Website</title>
+</head>
+<body style="margin: 0; font-family: 'Times New Roman', Times, serif; background: linear-gradient(to bottom, #eef6ff, #ffffff); color: #333;">
+
+  <!-- NAVBAR -->
+  <div style="text-align: center; padding: 20px 0 0 0;">
+    <a href="index.html" style="margin: 0 10px; text-decoration: none; color: #2f5fb3; font-size: 22px; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,139,0.3);">Home</a>
+    <a href="gallery.html" style="margin: 0 10px; text-decoration: none; color: #2f5fb3; font-size: 22px; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,139,0.3);">Gallery</a>
+    <a href="blog.html" style="margin: 0 10px; text-decoration: none; color: #2f5fb3; font-size: 22px; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,139,0.3);">Blog</a>
+    <a href="song.html" style="margin: 0 10px; text-decoration: none; color: #2f5fb3; font-size: 22px; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,139,0.3);">Song</a>
+    <a href="contact.html" style="margin: 0 10px; text-decoration: none; color: #2f5fb3; font-size: 22px; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,139,0.3);">Contact</a>
+  </div>
+
+  <div style="max-width: 1100px; margin: auto; padding: 40px 20px;">
+
+    <h1 style="text-align:center; color:#5b9df9; font-size:40px; text-shadow: 2px 2px 5px rgba(0,0,139,0.4); margin-bottom:40px;">
+      My Favorite Song
+    </h1>
+
+    <!-- 2 KOLOM: MP3 kiri, Video kanan -->
+    <div style="display:flex; flex-wrap:wrap; gap:30px; justify-content:center;">
+
+      <!-- KOLOM MP3 -->
+      <div style="width:45%;">
+        <h2 style="color:#2f5fb3;">MP3</h2>
+
+        <div style="background:#ffffff; padding:20px; border-radius:15px; box-shadow:0 6px 14px rgba(0,0,139,0.2); margin-bottom:20px;">
+          <p><b>Multo</b></p>
+          <audio controls style="width:100%;">
+            <source src="multo.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+
+        <div style="background:#ffffff; padding:20px; border-radius:15px; box-shadow:0 6px 14px rgba(0,0,139,0.2); margin-bottom:20px;">
+          <p><b>Number One Girl</b></p>
+          <audio controls style="width:100%;">
+            <source src="numberonegirl.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+
+        <div style="background:#ffffff; padding:20px; border-radius:15px; box-shadow:0 6px 14px rgba(0,0,139,0.2); margin-bottom:20px;">
+          <p><b>Drunk Text</b></p>
+          <audio controls style="width:100%;">
+            <source src="drunktext.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+
+      </div>
+
+      <!-- KOLOM VIDEO (seperti blog) -->
+      <div style="width:45%;">
+        <h2 style="color:#2f5fb3;">Video</h2>
+
+        <div style="background:#ffffff; padding:15px; border-radius:15px; box-shadow:0 6px 14px rgba(0,0,139,0.2); margin-bottom:20px; text-align:center;">
+          <iframe width="100%" height="180" src="https://www.youtube.com/embed?q=Multo" frameborder="0" allowfullscreen style="border-radius:10px;"></iframe>
+          <p><b>Multo</b></p>
+        </div>
+
+        <div style="background:#ffffff; padding:15px; border-radius:15px; box-shadow:0 6px 14px rgba(0,0,139,0.2); margin-bottom:20px; text-align:center;">
+          <iframe width="100%" height="180" src="https://www.youtube.com/embed?q=Number+One+Girl" frameborder="0" allowfullscreen style="border-radius:10px;"></iframe>
+          <p><b>Number One Girl</b></p>
+        </div>
+
+        <div style="background:#ffffff; padding:15px; border-radius:15px; box-shadow:0 6px 14px rgba(0,0,139,0.2); margin-bottom:20px; text-align:center;">
+          <iframe width="100%" height="180" src="https://www.youtube.com/embed?q=Drunk+Text" frameborder="0" allowfullscreen style="border-radius:10px;"></iframe>
+          <p><b>Drunk Text</b></p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
